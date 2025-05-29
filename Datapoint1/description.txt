@@ -1,0 +1,10 @@
+-----Description-----
+This task requires writing a Lean 4 function that computes the maximum subarray sum of a given list of integers. A subarray is a contiguous sequence of elements from the list. The function should return the maximum possible sum over all non-empty subarrays.
+
+-----Input-----
+The input is a list of integers:
+arr: List Int — the list of integers which may contain positive, negative, and zero values.
+
+-----Output-----
+The output is an integer:
+Returns the maximum sum that can be obtained from any non-empty contiguous subarray of the input list.
