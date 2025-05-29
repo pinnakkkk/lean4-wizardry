@@ -1,0 +1,10 @@
+name = "datapoint_1"
+version = "0.1.0"
+defaultTargets = ["datapoint_1"]
+
+[[lean_lib]]
+name = "Datapoint1"
+
+[[lean_exe]]
+name = "datapoint_1"
+root = "Main"
