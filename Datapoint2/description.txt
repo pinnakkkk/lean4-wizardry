@@ -1,0 +1,10 @@
+-----Description-----
+This task requires writing a Lean 4 function that performs run-length encoding on a string. Run-length encoding compresses a string by collapsing consecutive repeated characters into a single character followed by the count of repetitions.
+
+-----Input-----
+The input is a string:
+s: String — a sequence of characters (a-z, A-Z, 0-9, symbols)
+
+-----Output-----
+The output is a string:
+Returns a run-length encoded version of the input string, where each group of repeated characters is replaced by the character followed by the number of occurrences.

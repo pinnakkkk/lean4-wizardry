@@ -1,0 +1,27 @@
+[
+  {
+    "input": { "s": "aaabbc" },
+    "expected": "a3b2c1",
+    "unexpected": ["abc", "a1a1a1b1b1c1"]
+  },
+  {
+    "input": { "s": "aaaaa" },
+    "expected": "a5",
+    "unexpected": ["a1a1a1a1a1", "aaaaa"]
+  },
+  {
+    "input": { "s": "a" },
+    "expected": "a1",
+    "unexpected": ["a", "1a"]
+  },
+  {
+    "input": { "s": "" },
+    "expected": "",
+    "unexpected": ["a0", " "]
+  },
+  {
+    "input": { "s": "aabbaa" },
+    "expected": "a2b2a2",
+    "unexpected": ["a4b2", "a2b2"]
+  }
+]
